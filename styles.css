@@ -9,6 +9,7 @@ body {
 
 .left-column {
   background-image: url(assets/background-image.avif);
+  background-position: center center;
   background-size: cover;
   flex: 1;
 }
