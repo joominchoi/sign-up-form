@@ -9,6 +9,7 @@ Building a sign-up form for an imaginary service using HTML and CSS.
 
 
 ## Learnings
+- How to use flex to determine how a flex item will grow or shrink to fit the space available in its flex container.
 
 
 ## Recapping
