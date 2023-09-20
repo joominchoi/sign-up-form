@@ -1,3 +1,19 @@
-h1 {
-  font-size: 40px;
+body {
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-column {
+  background-image: url(assets/background-image.avif);
+  background-size: cover;
+  flex: 1;
+}
+
+.right-column {
+  background-color: green;
+  flex: 2;
 }
