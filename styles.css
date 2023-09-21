@@ -60,6 +60,26 @@ a:visited {
   flex: 2.5;
 }
 
+.section-one,
+.section-two,
+.section-three {
+  padding-left: 5%;
+  padding-right: 20%;
+}
+
+.section-one,
+.section-three {
+  background-color: rgb(249, 250, 251);
+  flex: 2;
+}
+
+.section-two {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  box-shadow: 0 5px 10px #0000002b;
+  flex: 1.5;
+}
+
 .section-one {
   display: flex;
   flex-direction: column;
@@ -114,22 +134,29 @@ a:visited {
   box-shadow: 5px 5px 10px #00000046;
 }
 
-.section-one,
-.section-two,
-.section-three {
-  padding-left: 5%;
-  padding-right: 20%;
+.section-three .form-row {
+  margin-top: 25px;
 }
 
-.section-one,
-.section-three {
-  background-color: rgb(249, 250, 251);
-  flex: 2;
+.section-three button {
+  font-size: 20px;
+  font-weight: bold;
+
+  color: #FFFFFF;
+  background-color: #596D48;
+
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #00000046;
+
+  padding: 10px 40px;
+  cursor: pointer;
 }
 
-.section-two {
-  background-color: rgb(255, 255, 255);
-  margin-bottom: 10px;
-  box-shadow: 0 5px 10px #0000002b;
-  flex: 1.5;
+.form-row button:hover {
+  background-color: #778d65;
+}
+
+.form-row button:active {
+  background-color:  #3a482f;
 }
