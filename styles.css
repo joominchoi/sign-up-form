@@ -50,7 +50,7 @@ img {
   color: white;
 }
 
-a:visited {
+.credit-text a:visited {
   color: white;
 }
 
@@ -85,12 +85,10 @@ a:visited {
 
 .section-two {
   flex: 6;
+  padding-top: 20px;
 
   display: flex;
-}
-
-.section-two {
-  padding-top: 20px;
+  flex-direction: column;
 }
 
 .header {
@@ -177,4 +175,13 @@ button:hover {
 
 button:active {
   background-color: #3a482f;
+}
+
+.section-two-text {
+  padding-top: 15px;
+}
+
+.section-two-text a {
+  font-weight: bold;
+  text-decoration: none;
 }
