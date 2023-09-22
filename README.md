@@ -2,6 +2,8 @@
 
 Building a sign-up form for an imaginary service using HTML and CSS.
 
+Check it out [here](https://jooomin.github.io/sign-up-form/)
+
 **Course reference pages:** \
 [Project: Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
 
